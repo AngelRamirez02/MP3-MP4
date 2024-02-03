@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicaLibre</title>
+    <link rel="icon" href="/static/img/icono.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" >
+</head>
+<body>
+    <header>
+        <h1>MP3 & MP4 GRATIS</h1>
+        <h2>Descarga musica y videos de YouTube con la mejor calidad ¡completamente gratis!</h2>
+    </header>
+    <form action="" method="post">
+        <div class="descarga">
+            <input type="text" name="url" class="urlUser" placeholder="URL">
+            <label for="url" class="txtDescarga">Ingresa la url de YouTube del video que deseas descargar</label>
+        </div>
+        <div class="botones">
+            <input type="submit" name="formato" class="btn" value="Descargar mp3">
+            <input type="submit" name="formato" class="btn" value="Descargar mp4">
+        </div>
+    </form>
+</body>
+</html>

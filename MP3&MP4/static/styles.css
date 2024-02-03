@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.descarga{
+    padding: 60px 0;
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.urlUser{/*Campo de texto donde el usario ingresa la url*/
+    width: 95%;
+    padding: 10px;
+}
+.txtDescarga{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.botones{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: c;
+    justify-content: space-evenly;
+}
+.btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    header, .descargar,input {
+        max-width: 100%;
+    }
+}
